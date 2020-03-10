@@ -7,11 +7,16 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvgpl/typescript-library-starter.git"
+  },
   "scripts": {
     "test": "jest --config jestconfig.json --watchAll",
     "format": "npx prettier --write \"src/**/*.ts\"",
     "clean": "rm -rf lib",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "publish": "npm run build && npm publish --access public"
   },
   "keywords": [],
   "author": "Ravigopal Kesari",
