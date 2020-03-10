@@ -8,6 +8,7 @@
     "dist"
   ],
   "scripts": {
+    "test": "jest --config jestconfig.json --watchAll",
     "format": "npx prettier --write \"src/**/*.ts\"",
     "build": "tsc"
   },
@@ -15,7 +16,10 @@
   "author": "Ravigopal Kesari",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
     "prettier": "^1.19.1",
+    "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
   }
 }
