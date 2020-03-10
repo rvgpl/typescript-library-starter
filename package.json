@@ -8,12 +8,14 @@
     "dist"
   ],
   "scripts": {
+    "format": "npx prettier --write \"src/**/*.ts\"",
     "build": "tsc"
   },
   "keywords": [],
   "author": "Ravigopal Kesari",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^1.19.1",
     "typescript": "^3.8.3"
   }
 }
