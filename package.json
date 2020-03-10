@@ -1,0 +1,19 @@
+{
+  "name": "@rvgpl/typescript-library-starter",
+  "version": "1.0.0",
+  "description": "Just another typescript library starter",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Ravigopal Kesari",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
