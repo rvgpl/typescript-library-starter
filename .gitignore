@@ -30,4 +30,4 @@ node_modules/
 *.tgz
 
 # Build
-dist
+lib
