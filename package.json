@@ -10,7 +10,8 @@
   "scripts": {
     "test": "jest --config jestconfig.json --watchAll",
     "format": "npx prettier --write \"src/**/*.ts\"",
-    "build": "tsc"
+    "clean": "rm -rf lib",
+    "build": "npm run clean && tsc"
   },
   "keywords": [],
   "author": "Ravigopal Kesari",
